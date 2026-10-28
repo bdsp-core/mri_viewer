@@ -1,0 +1,15 @@
+# BIND data stays on the servers (see README, Data policy): never commit cases, reports, results or images
+cases.csv
+selection_log.txt
+results/
+*.nii
+*.nii.gz
+*.nvd
+*.parquet
+*.csv
+*.json
+*.log
+__pycache__/
+jon_labels/
+*.duckdb
+.DS_Store
